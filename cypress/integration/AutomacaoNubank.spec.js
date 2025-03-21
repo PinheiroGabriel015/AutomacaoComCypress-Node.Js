@@ -1,6 +1,6 @@
 ///<reference types='cypress'/>
-describe('Automação Nubank', ()=>{
-    it('Gabriel Pinheiro',function(){
+describe('Automação Nubank', () => {
+    it('Automação de Login no Nubank', function () {
         cy.visit('https://www.nubank.com.br/')
         cy.wait(5000)
 
