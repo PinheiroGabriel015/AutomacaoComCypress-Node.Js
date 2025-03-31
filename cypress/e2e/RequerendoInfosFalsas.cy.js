@@ -1,7 +1,7 @@
 ///<reference types='cypress'/>
 
 describe('Pegando Infos pessoais Falsas para o teste', ()=>{
-    it('Testando comando gpt', function(){
+    it('Testando automação com json', function(){
         cy.visit('https://www.4devs.com.br/gerador_de_pessoas')
         cy.get('#cookiescript_accept').click()
         cy.get('#bt_gerar_pessoa').click()
