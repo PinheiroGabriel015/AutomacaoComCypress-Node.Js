@@ -17,7 +17,7 @@ describe('Teste Nubank', ()=>{
         })
     })
 
-        /*it('Login com erros', function(){
+        it('Login com erros', function(){
             cy.visit('https://www.nubank.com.br/')
             cy.wait(5000)
             cy.get('.css-wl6yh0').click()
@@ -28,5 +28,5 @@ describe('Teste Nubank', ()=>{
             cy.get('#emailConfirmation').type('gabrielflashcodetest@gmai.com')
             cy.get('.chakra-checkbox__control').click()
 
-        })*/
+        })
 })
